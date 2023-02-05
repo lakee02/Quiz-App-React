@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Home from './Home';
 import Quiz from './Quiz';
 import Results from './Results';
+import './style.css';
 
 const questions = [
   {
@@ -90,7 +91,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       {currentScreen === 'home' && <Home startQuiz={startQuiz} />}
       {currentScreen === 'quiz' && (
         <Quiz
