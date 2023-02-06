@@ -3,7 +3,8 @@ import Home from './Home';
 import Quiz from './Quiz';
 import Results from './Results';
 import './style.css';
-
+//
+//
 const questions = [
   {
     question: 'How do you center an element horizontally in CSS?',
